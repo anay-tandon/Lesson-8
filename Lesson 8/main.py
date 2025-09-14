@@ -24,4 +24,3 @@ def create_satellites():
         satellite.pos = (randint(40, WIDTH - 40), randint(40, HEIGHT - 40))
         satellites.append(satellite)
     start_time = time()
-print(start_time)
